@@ -1,0 +1,18 @@
+{
+  "name": "BJ-card-counter",
+  "build": { "dockerfile": "Dockerfile" },
+  "features": {},
+  "postCreateCommand": "python -m venv .venv && . .venv/bin/activate && pip install --upgrade pip && pip install -r requirements.txt",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": ".venv/bin/python",
+        "python.terminal.activateEnvironment": true
+      }
+    }
+  }
+}

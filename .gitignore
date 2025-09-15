@@ -1,0 +1,28 @@
+# OS/editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Training data / outputs
+data/
+runs/
+
+# Model weights / large binaries
+*.pt
+*.onnx
+*.engine
+*.weights
+*.mp4
+*.mov
+*.avi
+*.mkv

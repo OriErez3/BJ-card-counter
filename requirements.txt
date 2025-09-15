@@ -2,3 +2,6 @@ opencv-python
 ultralytics
 numpy
 termcolor
+streamlit
+pillow
+opencv-python-headless
